@@ -40,8 +40,7 @@ class Egyptmap:
         ## form [ 2-5]
         player1_terr_count= random.randint(2,4)
         player2_terr_count=total - player1_terr_count
-       # print("player1",player1_terr_count)
-       # print("player2",player2_terr_count)
+
 #   shuffling the list in order to distribute the terrs among the players
         for i in range(len(self.map_terrs) - 1, 0, -1):
             # Pick a random index from 0 to i
