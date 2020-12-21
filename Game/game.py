@@ -14,7 +14,7 @@ def main():
 
      my_map=Egyptmap()
      new_game = game(my_map)
-  #   new_game.assign_terrs()
+  #   new_game.assign_terrs() here delete !!!!
      player1= player("Moh",new_game.map.p1_terrs,"Human")
      player2= player("Hima",new_game.map.p2_terrs,"DES")
      for i in range(len(player1.my_terrs)):
