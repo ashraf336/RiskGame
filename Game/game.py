@@ -24,7 +24,19 @@ def main():
      for i in range(len(player2.my_terrs)):
          print("p2 list is : " + str(player2.my_terrs[i].terr_id))
 
+     removed=player1.remove_terr(1)
+     if not removed :
+         print("******[not found]*****")
+     else:
+         player2.add_terr(removed)
 
+     print("\n")
+     for i in range(len(player1.my_terrs)):
+        print("p1 list is : " + str(player1.my_terrs[i].terr_id))
+     print("")
+
+     for i in range(len(player2.my_terrs)):
+         print("p2 list is : " + str(player2.my_terrs[i].terr_id))
 
 
 
